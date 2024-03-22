@@ -10,7 +10,7 @@ if (
 }
 
 const password = process.argv[2];
-const url = `mongodb+srv://fso_2019:${password}@cluster0-opbwv.mongodb.net/phonebook?retryWrites=true&w=majority`;
+const url = `mongodb+srv://matiburkowski:97eh3YIsL7bdFuC3@part3db.tmwcibn.mongodb.net/?retryWrites=true&w=majority&appName=part3db`;
 
 mongoose
   .connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
